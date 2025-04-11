@@ -9,6 +9,8 @@ sources:
       - name: yelp_academic_dataset_business
       - name: yelp_academic_dataset_checkin
       - name: yelp_academic_dataset_tip
+      - name: yelp_academic_dataset_user
+      - name: yelp_academic_dataset_review
 
   - name: STG_Climate         
     database: vu-kim      
