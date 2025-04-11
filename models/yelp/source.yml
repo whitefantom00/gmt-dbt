@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: STG_Yelp         # matches the first argument in source()
+    database: vu-kim      # optional if running in same project
+    schema: STG_Yelp       # matches the BigQuery dataset
+    tables:
+      - name: yelp_academic_dataset_covid_features
+      - name : yelp_academic_dataset_business
+      - name : yelp_academic_dataset_checkin
+      - name : yelp_academic_dataset_tip

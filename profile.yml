@@ -1,0 +1,12 @@
+yelp_bigquery:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: vu-kim  # Your GCP project ID
+      dataset: STG_Yelp  # Default dataset
+      threads: 4
+      timeout_seconds: 300
+      location: US  # BigQuery dataset location
+      priority: interactive
