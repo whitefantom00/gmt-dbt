@@ -85,10 +85,8 @@ else:
 csv_files = find_csv_files(DATA_FOLDER)
 if csv_files:
     print(f"Found {len(csv_files)} CSV files:")
-    for file in csv_files[:5]:  # Show first 5 files
+    for file in csv_files: 
         print(f"  - {file}")
-    if len(csv_files) > 5:
-        print(f"  ... and {len(csv_files) - 5} more")
 else:
     print(f"No CSV files found in {DATA_FOLDER}. Please check the directory.")
     
