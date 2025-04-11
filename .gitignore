@@ -3,3 +3,7 @@
 target/
 dbt_packages/
 logs/
+*.json/
+*.key/
+secrets.env/
+.env/
