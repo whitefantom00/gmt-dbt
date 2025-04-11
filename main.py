@@ -14,7 +14,7 @@ from gcp_function import convert_schema, append_bq_schema_to_json, get_file_name
 
 # Set up GCP credentials and project ID
 PROJECT_ID = 'vu-kim'
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'vu-kim-455b4c3b3ea6.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'KEY'
 
 storage_client = storage.Client(project=PROJECT_ID)
 

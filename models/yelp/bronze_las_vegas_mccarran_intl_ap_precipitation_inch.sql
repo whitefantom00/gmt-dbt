@@ -2,6 +2,6 @@
     materialized='table',
 ) }}
 
-create table SRC_Yelp.yelp_academic_dataset_user as
+create table SRC_Yelp.las_vegas_mccarran_intl_ap_precipitation_inch as
 SELECT *
-FROM {{ source('STG_Yelp', 'yelp_academic_dataset_user') }}
+FROM {{ source('STG_Climate', 'las_vegas_mccarran_intl_ap_precipitation_inch') }}
