@@ -2,6 +2,6 @@
     materialized='table',
 ) }}
 
-create table SRC_Yelp.yelp_academic_dataset_tip as
+-- create or replace table SRC_Yelp.yelp_academic_dataset_tip as
 SELECT *
 FROM {{ source('STG_Yelp', 'yelp_academic_dataset_tip') }}

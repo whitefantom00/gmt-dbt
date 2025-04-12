@@ -2,6 +2,7 @@
     materialized='table',
 ) }}
 
+-- create or replace table SCR_Yelp.FA_ComplimentByDay as
 select 
     date(date) as issue_date, 
     sum(compliment_count) as compliment_count
